@@ -1,0 +1,13 @@
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\bin\Debug\netcoreapp3.1\Abstracao_POO.exe
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\bin\Debug\netcoreapp3.1\Abstracao_POO.deps.json
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\bin\Debug\netcoreapp3.1\Abstracao_POO.runtimeconfig.json
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\bin\Debug\netcoreapp3.1\Abstracao_POO.runtimeconfig.dev.json
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\bin\Debug\netcoreapp3.1\Abstracao_POO.dll
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\bin\Debug\netcoreapp3.1\Abstracao_POO.pdb
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.csprojAssemblyReference.cache
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.AssemblyInfoInputs.cache
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.AssemblyInfo.cs
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.csproj.CoreCompileInputs.cache
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.dll
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.pdb
+C:\Users\PC - CARLOS\Desktop\DEV\C#\Abstracao_POO\obj\Debug\netcoreapp3.1\Abstracao_POO.genruntimeconfig.cache
