@@ -2,7 +2,7 @@ using System;
 
 namespace Abstracao_POO.classes
 {
-    public class Cartao
+    public abstract class Cartao
     {
         public string bandeira;
 
@@ -22,6 +22,10 @@ namespace Abstracao_POO.classes
             Console.WriteLine("Digite o cvv do cartão: ");
             cvv = Console.ReadLine();
             return "Cartão salvo!";
+        }
+
+        public void Pagar(){
+            
         }
     }
 }

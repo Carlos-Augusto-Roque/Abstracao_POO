@@ -8,10 +8,11 @@ namespace Abstracao_POO.classes
 
         public void Pagar(float valor){
             if(valor <= saldo){
-                Console.WriteLine("Pagar!");
+                Console.WriteLine("Pagamento efetuado com sucesso!");
             }else{
                 Console.WriteLine("Saldo Insuficiente!");
             }
+            return;
         }
     }
 }

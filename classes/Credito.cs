@@ -7,23 +7,45 @@ namespace Abstracao_POO.classes
         private float limite = 3000;
 
 
-        public void Pagar(float valor){
-            if(valor <= limite){
-                Console.WriteLine("Pagamento Aprovado!");
-            }else{
-                Console.WriteLine("Limite Excedido - Entre em contato com sua gerência!");
-            }
+        public virtual void Pagar(float valor){
+            if(valor <= this.limite){
+                
 
-        public string Parcelar(int numeroParcelas){
-            if(numeroParcelas <=6){
-                valor = valor*0.95f;
-            }if(numeroParcelas >6 || numeroParcelas<=12){
-                valor = valor*0.92f;
+                int parcelas;
+
+                do
+                {
+                    Console.WriteLine("Atenção : Para essa forma de Pagamento haverá um acréscimo de juros!");
+                    Console.WriteLine("Número máximo de parcelas : 12");
+                    Console.WriteLine("Números de parcelas de 0 até 6 : Juros de 5% ");
+                    Console.WriteLine("Números de parcelas de 7 até 12 : Juros de 8%");
+                    Console.WriteLine("");
+                    Console.Write("Digite o número de parcelas: ");
+                    parcelas = int.Parse(Console.ReadLine());
+
+                } while (parcelas >12);
+
+                float juros;
+
+                if(parcelas <= 6){
+                    juros = 0.05f;
+                }else{
+                    juros = 0.08f;
+                }
+
+                float total = valor + (valor*juros);
+                
+                ExibirNota(this.titular, total);
+                Console.WriteLine("Parabéns pela compra - Pagamento Aprovado!");
+
             }else{
-                Console.WriteLine("Número de parcelas não autorizado!");
+                Console.WriteLine("Ops! Limite Excedido - Entre em contato com sua gerência!");
             }
+               
         }
-        
+
+        public void ExibirNota(string titular, float total){
+            Console.WriteLine($"Titular {titular}  - Valor da Compra : {total}");
         }
         
     }
